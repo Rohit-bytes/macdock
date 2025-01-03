@@ -14,12 +14,13 @@ class Dockicons extends StatefulWidget {
 
   @override
   State<Dockicons> createState() => _DockiconsState();
+
+ 
 }
 
 class _DockiconsState extends State<Dockicons> {
   bool clicked = false;
-  final double left=0;
-  final double right=0;
+  
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
